@@ -36,7 +36,7 @@ const Tab = () => {
     >
       {data.map((allData, index) => {
         return (
-          <div onClick={() => handleClick(index)} style={{}}>
+          <div onClick={() => handleClick(index)} style={{}} key={index}>
             <img src={allData.image} alt="///"  style={{ height:index+1==data.length?14:24}}/>
             
           </div>

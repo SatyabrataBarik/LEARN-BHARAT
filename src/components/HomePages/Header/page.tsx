@@ -6,7 +6,10 @@ import { useState } from "react";
 const Header = () => {
   // const {fullHeight,fullWidth}=Size();
   const [searchData, setSearchData] = useState("");
-  const handlechange = () => {};
+  const handlechange = (event:any) => {
+    const {value}=event.target.value;
+    setSearchData(value);
+  };
   return (
     <div
       style={{
@@ -22,7 +25,7 @@ const Header = () => {
           placeholder="Search"
           name="search"
           value={searchData}
-          onChange={() => handlechange()}
+          onChange={(event) => handlechange(event)}
           style={{
             width: "40rem",
             height: "2.5rem",
@@ -36,5 +39,4 @@ const Header = () => {
     </div>
   );
 };
-
 export default Header;
