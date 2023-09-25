@@ -30,10 +30,11 @@ const Header = () => {
           style={{
             width: "40rem",
             height: "2.5rem",
-            borderWidth: 1,
+            borderWidth: 2.5,
             borderRadius: "9px",
             marginTop:'12px',
-            padding:6
+            padding:6,
+            borderColor:'#339C9C'
           }}
         />
       </div>
