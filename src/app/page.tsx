@@ -1,3 +1,4 @@
+// @client
 import Header from "@/components/HomePages/Header/page"
 
 const LearingHomePage = () => {

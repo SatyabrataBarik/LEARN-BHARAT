@@ -1,5 +1,7 @@
+// @client
+
 const Header = () => {
-    
+   // const {fullHeight,fullWidth}=Size();
     return (
       <div
         style={{
@@ -8,7 +10,7 @@ const Header = () => {
           height: '50px',
         }}
       >
-        <div style={{width:}}>
+        <div style={{}}>
 
         </div>
         {/* Your content goes here */}
