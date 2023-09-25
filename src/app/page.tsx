@@ -1,7 +1,10 @@
+import Header from "@/components/HomePages/Header/page"
 
 const LearingHomePage = () => {
   return (
-    <div>LearingHomePage</div>
+    <>
+    <Header/>
+    </>
   )
 }
 
