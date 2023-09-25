@@ -1,0 +1,5 @@
+body{
+    background: `url('https://t3.ftcdn.net/jpg/04/00/77/64/240_F_400776431_5JxdDYRr1mn9yISiUFMPcLtLp3zt6NA1.jpg') center center / cover no-repeat`, // Set the background image
+        width: "100%",
+        height: "40rem",
+}
