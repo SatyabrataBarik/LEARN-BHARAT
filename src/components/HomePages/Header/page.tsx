@@ -14,7 +14,7 @@ const Header = () => {
   return (
     <div
       style={{
-        background: `url('https://t3.ftcdn.net/jpg/04/00/77/64/240_F_400776431_5JxdDYRr1mn9yISiUFMPcLtLp3zt6NA1.jpg') center center / cover no-repeat`, // Set the background image
+        background: `url('https://png.pngtree.com/background/20210710/original/pngtree-children-education-banner-background-picture-image_1027729.jpg') center center / cover no-repeat`, // Set the background image
         width: "100%",
         height: "34rem",
         // display:'flex',
